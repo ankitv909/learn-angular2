@@ -45,7 +45,7 @@ export class UserProfile {
 {% endraw %}
 ```
 
-Now when we used this component elsewhere in our app, we can bind the event that `user-profile` emits
+Now when we used this component in its parent component, we can bind the event that `user-profile` emits
 
 ```html
 {% raw %}
